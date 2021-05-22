@@ -1,0 +1,22 @@
+/* Add application styles & imports to this file! */
+
+html, body, div, span, my-app {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+}
+
+html, body, my-app {
+  width: 100%;
+  height: 100%;
+}
+
+/* JointJS */
+.joint-link .connection, 
+.joint-link .marker-target, 
+.joint-link .marker-source {
+  stroke: blue;
+  fill: blue;
+}
